@@ -26,14 +26,14 @@ export default function NavBar({ pname, colorLinkNavBar }) {
             About
           </a>
           <a
-            href="/contact"
+            href="/portfolio"
             className="text-white"
             style={{ color: pname === "C" ? colorLinkNavBar : "white" }}
           >
-            Contact
+            Portfolio
           </a>
           <a
-            href="/portfolio"
+            href="/contact"
             className="text-white border-2 border-white px-4 py-1 rounded-2xl"
             style={{ color: pname === "P" ? colorLinkNavBar : "white" }}
           >
